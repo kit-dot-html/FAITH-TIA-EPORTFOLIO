@@ -1,0 +1,606 @@
+body {
+    height: 3000px;
+    background-image: 
+    linear-gradient(to bottom, black, rgba(6, 1, 48, 1));
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/*————— OTHER —————*/
+
+.maintitle a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    position: fixed;
+    top: -20px;
+    left: 1600px;
+    text-decoration: none;
+    color: white;
+    z-index: 1000;
+    transition: linear 0.3s;
+}
+.maintitle a:hover{
+    color: #2c1d58;
+    font-size: 35px;
+}
+
+.bg::after{
+    content: '';
+    background-color: rgba(255, 247, 210, 0.178);
+    width: 1800px;
+    height: 2900px;
+    z-index: -69;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    border-radius: 50px;
+    box-shadow: 0 0px 10px white;
+}
+.bg::before{
+    content: '';
+    background-color: rgba(255, 247, 210, 0.589);
+    width: 1890px;
+    height: 50px;
+    z-index: 999;
+    position: fixed;
+    top: 4px;
+    left: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px white;
+}
+.header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    position: fixed;
+    display: flex;
+    gap: 200px;
+    top: -20px ;
+    left: 100px;
+    z-index: 999;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    transition: ease all 0.67s;
+}
+.header a:hover{
+    color: #2c1d58;
+    font-size: 35px;
+}
+
+/*————— CONTENT —————*/
+.icttitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    display: flex;
+    gap: 200px;
+    top: 50px ;
+    left: 100px;
+    transition: linear .67s;
+}
+.icttitle:hover{
+    font-size: 51px;
+    transition: ease all .67s;
+    color: #2c1d58;
+    background-color: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    padding: 10px;
+}
+.comptitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    display: flex;
+    gap: 200px;
+    top: 50px ;
+    left: 500px;
+    transition: linear .67s;
+}
+.comptitle:hover{
+    font-size: 51px;
+    transition: ease all .67s;
+    color: #2c1d58;
+    background-color: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    padding: 10px;
+}
+.goup{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    display: flex;
+    gap: 200px;
+    top: 2820px ;
+    left: 800px;
+    transition: linear .67s;
+}
+.goup:hover{
+    font-size: 51px;
+    transition: ease all .67s;
+    color: #2c1d58;
+    background-color: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+/*————— POPUPS —————*/
+
+button:hover{
+    height: 10%;
+    width: auto;
+}
+ .cbox1, .cbox2, .cbox3, .cbox4, .cbox5, .cbox6{
+    text-align:justify; 
+    background-image: linear-gradient(135deg,rgba(255, 255, 255, 0.67), rgba(156, 175, 216, 0.67)); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color: black;
+    width: 1625px;
+    height: 1500px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 50px;
+    position: relative;
+    top: 1050px;
+    left: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 10px black;
+    transition: opacity .67s 0.67s;
+    z-index: 11;                      
+    cursor: pointer;
+}
+.p1 {
+    display: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transition: ease all .67s;
+    color: #2c1d58;
+    background-color: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+}
+.p2 {
+    display: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transition: ease all .67s;
+    color: #2c1d58;
+    background-color: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 170px;
+    left: 300px;
+}
+.p3 {
+    display: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transition: ease all .67s;
+    color: #2c1d58;
+    background-color: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 170px;
+    left: 500px;
+}
+.p4{
+    display: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transition: ease all .67s;
+    color: #2c1d58;
+    background-color: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 170px;
+    left: 700px;
+}
+.p5{
+    display: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transition: ease all .67s;
+    color: #2c1d58;
+    background-color: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 170px;
+    left: 900px;
+}
+.p6{
+    display: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transition: ease all .67s;
+    color: #2c1d58;
+    background-color: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 170px;
+    left: 1100px;
+}
+ .cbox7, .cbox8, .cbox9, .cbox10, .cbox11, .cbox12, .cbox13 {
+    text-align:justify; 
+    background-image: linear-gradient(135deg,rgba(255, 255, 255, 0.67), rgba(156, 175, 216, 0.67)); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: black;
+    width: 1625px;
+    height: 600px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 50px;
+    position: relative;
+    top: 2500px;
+    left: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 10px black;
+    transition: opacity .67s 0.67s;
+    z-index: 11;                               
+    cursor: pointer;
+}
+.p7{
+    display: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transition: ease all .67s;
+    color: #2c1d58;
+    background-color: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 2000px;
+    left: 100px;
+}
+.p8{
+    display: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transition: ease all .67s;
+    color: #2c1d58;
+    background-color: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 2000px;
+    left: 420px;
+}
+.p9{
+    display: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transition: ease all .67s;
+    color: #2c1d58;
+    background-color: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 2000px;
+    left: 670px;
+}
+.p10{
+    display: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transition: ease all .67s;
+    color: #2c1d58;
+    background-color: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 2000px;
+    left: 980px;
+}
+.p11{
+    display: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transition: ease all .67s;
+    color: #2c1d58;
+    background-color: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 2000px;
+    left: 1200px;
+}
+.p12{
+    display: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transition: ease all .67s;
+    color: #2c1d58;
+    background-color: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 2000px;
+    left: 1470px;
+}
+.p13{
+    display: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    transition: ease all .67s;
+    color: #2c1d58;
+    background-color: rgba(255, 255, 255, 0.67);
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 1900px;
+    left: 1500px;
+}
+/*————— SPANS —————*/
+.big{
+    color: #2c1d58;
+    font-size: 40px;
+}
+.small{
+    color: #2c1d58;
+    font-size: 27px;
+}
+.beh {
+    position: absolute;
+    top: 880px;
+    left: 940px;
+}
+.val {
+    position: absolute;
+    top: 220px;
+    left: 850px;
+}
+
+.ss{
+    position: absolute;
+    top: 650px;
+    font-size: 20px;
+}
+.kocss{
+    position: absolute;
+    top: 1150px ;
+    font-size: 23px;
+}
+
+
+/*————— IMAGES —————*/
+.layers1{
+    height: 25%;
+    width: auto;
+    position: absolute;
+    top: 430px;
+    left: 1100px;
+    box-shadow: 0 2px 10px black;
+}
+.cssss{
+    height: 25%;
+    width: auto;
+    position: absolute;
+    top: 10px;
+    left: 950px;
+}
+.layers1:hover, .cssss:hover{
+    height: 27%;
+    transition: ease all .67s;
+}
+.structure{
+    height: auto;
+    width: 25%;
+    position: absolute;
+    top: 40px;
+    left: 900px;
+}
+.text{
+    position: absolute;
+    top: 950px;
+    left: 800px;
+}
+.ext{
+    position: absolute;
+    top: 1000px;
+    left: 800px;
+}
+.temb{
+    position: absolute;
+    top: 1240px;
+    left: 800px;
+}
+.emb{
+    position: absolute;
+    top: 1290px;
+    left: 800px;
+}
+.tin{
+    position: absolute;
+    top: 1565px;
+    left: 800px;
+}
+.in{
+    position: absolute;
+    top: 1610px;
+    left: 800px;
+}
+.pd{
+    height: 15%;
+    width: auto;
+    position: absolute;
+    top: 10px;
+    left: 800px;
+}
+.dp{
+    height: 10%;
+    width: auto;
+    position: absolute;
+    top: 630px;
+    left: 800px;
+}
+.div{
+    height:auto;
+    width: 30%;
+    position: absolute;
+    top: 830px;
+    left: 1100px;
+}
+.rule{
+    height: 20%;
+    width: auto;
+    position: absolute;
+    top: 150px;
+    left: 800px;
+}
+.class{
+    height: 10%;
+    width: auto;
+    position: absolute;
+    top: 500px;
+    left: 850px;
+}
+.golden{
+    height: 20%;
+    width: auto;
+    position: absolute;
+    top: 850px;
+    left: 400px;
+}
+.baba{
+    height: 20%;
+    width: auto;
+    position: absolute;
+    top: 850px;
+    left: 900px;
+}
+.elem{
+    height: 20%;
+    width: auto;
+    position: absolute;
+    top: 250px;
+    left: 900px;
+}
+.id{
+    height: 20%;
+    width: auto;
+    position: absolute;
+    top: 750px;
+    left: 900px;
+}
+.uni{
+    height: 20%;
+    width: auto;
+    position: absolute;
+    top: 1150px;
+    left: 900px;
+}
+.grp{
+    height: 20%;
+    width: auto;
+    position: absolute;
+    top: 1650px;
+    left: 900px;
+}
+.attri{
+    height: 20%;
+    width: auto;
+    position: absolute;
+    top: 2100px;
+    left: 900px;
+}
+.dim1{
+    height: 15%;
+    width: auto;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+.dim2{
+    height: 10%;
+    width: auto;
+    position: absolute;
+    top: 200px;
+    left: 550px;
+}
+.dim3{
+    height: 10%;
+    width: auto;
+    position: absolute;
+    top: 400px;
+    left: 550px;
+}
+.dim4{
+    height: 15%;
+    width: auto;
+    position: absolute;
+    top: 200px;
+    left: 1150px;
+}
+.dim5{
+    height: 15%;
+    width: auto;
+    position: absolute;
+    top: 440px;
+    left: 1150px;
+}
+.dim6{
+    height: 25%;
+    width: auto;
+    position: absolute;
+    top: 1050px;
+    left: 50px;
+}
+.left{
+    height: 55%;
+    width: auto;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+.right{
+    height: 55%;
+    width: auto;
+    position: absolute;
+    top: 60px;
+    left: 850px;
+}
+.vid{
+    height: 55%;
+    width: auto;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+}

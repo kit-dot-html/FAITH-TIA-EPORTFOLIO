@@ -1,0 +1,621 @@
+body {
+    height: 3000px;
+    background-image: 
+    linear-gradient(to bottom, black, rgb(1, 48, 28));
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/*—————OTHER—————*/
+
+.maintitle a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    position: fixed;
+    top: -20px;
+    left: 1600px;
+    text-decoration: none;
+    z-index: 101;
+    color: white;
+    transition: linear 0.3s;
+}
+.maintitle a:hover{
+        color: #1d582f;
+    font-size: 35px;
+}
+
+.bg::after{
+    content: '';
+    background-color: rgba(255, 247, 210, 0.178);
+    width: 1800px;
+    height: 2800px;
+    z-index: -69;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    border-radius: 50px;
+    box-shadow: 0 0px 10px white;
+}
+.bg::before{
+    content: '';
+    background-color: rgba(255, 247, 210, 0.589);
+    width: 1890px;
+    height: 50px;
+    z-index: 100;
+    position: fixed;
+    top: 4px;
+    left: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px white;
+}
+.header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    position: fixed;
+    display: flex;
+    gap: 200px;
+    top: -20px ;
+    left: 100px;
+    z-index: 101;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    transition: ease all 0.67s;
+}
+.header a:hover{
+    color: #1d582f;
+    font-size: 35px;
+}
+.card{
+    width: 1% ;
+}
+/*————— CONTENT —————*/
+.abtm {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 700px;
+    z-index: 0;
+}
+.megeneral {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 190px;
+    left: 700px;
+    z-index: 1;
+}
+.kf {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 1200px;
+    left: 100px;
+    z-index: 0;
+}
+.friendsgeneral {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 1290px;
+    left: 100px;
+    z-index: 1;
+}
+.f {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 2000px;
+    left: 100px;
+    z-index: 0;
+}
+.famgeneral {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 2090px;
+    left: 100px;
+    z-index: 1;
+}
+
+/*————— POPUPS —————*/
+
+ .cbox1 {
+    text-align:justify; 
+    background-color: rgba(255, 255, 255, 0.67); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color: black;
+    width: 700px;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+    top: 130px;
+    left: 700px;
+    justify-content: center;
+    align-items: center;
+    transition: opacity .67s 0.67s;
+    z-index: 11;
+    opacity: 0;
+    cursor: pointer;
+} 
+.info1 {
+    display: block;
+}
+.piano:hover{
+    width: 21%;
+    transition: ease all .67s;
+}
+.card:hover .cbox1{
+    opacity: 1;
+    transition: opacity .67s;
+}
+
+ .cbox2 {
+    text-align:justify; 
+    background-color: rgba(255, 255, 255, 0.67); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color: black;
+    width: 700px;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+    top: 0px;
+    left: 700px;
+    justify-content: center;
+    align-items: center;
+    transition: opacity .67s 0.67s;
+    z-index: 11;
+    opacity: 0;
+    cursor: pointer;
+} 
+.info2 {
+    display: block;
+}
+.bass:hover{
+    height: 34%;
+    transition: ease all .67s;
+}
+
+.card:hover .cbox2{
+    opacity: 1;
+    transition: opacity .67s;
+}
+ .cbox3 {
+    text-align:justify; 
+    background-color: rgba(255, 255, 255, 0.67); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color: black;
+    width: 500px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+    top: -200px;
+    left: 1200px;
+    justify-content: center;
+    align-items: center;
+    transition: opacity .67s 0.67s;
+    z-index: 11;
+    opacity: 0;
+    cursor: pointer;
+} 
+.info3 {
+    display: block;
+}
+.botb:hover{
+    height: 34%;
+    transition: ease all .67s;
+}
+.card:hover .cbox3{
+    opacity: 1;
+    transition: opacity .67s;
+}
+ .cbox4 {
+    text-align:justify; 
+    background-color: rgba(255, 255, 255, 0.67); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color: black;
+    width: 500px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 30px;
+    position: absolute;
+    top: 930px;
+    left: 500px;
+    justify-content: center;
+    align-items: center;
+    transition: opacity .67s 0.67s;
+    z-index: 11;
+    opacity: 0;
+    cursor: pointer;
+} 
+.info4 {
+    display: block;
+}
+.senshi:hover{
+    width: 21%;
+    transition: ease all .67s;
+}
+.card:hover .cbox4{
+    opacity: 1;
+    transition: opacity .67s;
+}
+ .cbox5 {
+    text-align:justify; 
+    background-color: rgba(255, 255, 255, 0.67); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color: black;
+    width: 500px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 30px;
+    position: absolute;
+    top: 1050px;
+    left: 500px;
+    justify-content: center;
+    align-items: center;
+    transition: opacity .67s 0.67s;
+    z-index: 11;
+    opacity: 0;
+    cursor: pointer;
+} 
+.info5 {
+    display: block;
+}
+.card:hover .cbox5{
+    opacity: 1;
+    transition: opacity 1.67s;
+}
+
+/*————— IMAGES —————*/
+.kitdigicam {
+    height: auto;
+    width: 30%;
+    z-index: 1;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    border-radius: 10px;
+}
+.kitdigicam:hover{
+    width: 31%;
+    transition: ease all .67s;
+}
+.piano {
+    height: auto;
+    width: 20%;
+    z-index: 1;
+    position: absolute;
+    top: 300px;
+    left: 710px;
+    border-radius: 10px;
+    z-index: 13;
+}
+.bass {
+    height: 33%;
+    width: auto;
+    z-index: 1;
+    position: absolute;
+    top: 300px;
+    left: 1100px;
+    border-radius: 10px;
+}
+.botb {
+    height: 33%;
+    width: auto;
+    position: absolute;
+    top: 300px;
+    left: 1350px;
+    border-radius: 10px;
+}
+.amp {
+    height: auto;
+    width: 20%;
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.amp:hover{
+    width: 21%;
+    transition: ease all .67s;
+}
+.kickdrum {
+    height: auto;
+    width: 20%;
+    position: absolute;
+    top: 600px;
+    left: 500px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.kickdrum:hover{
+    width: 21%;
+    transition: ease all .67s;
+}
+.kprac{
+    height: auto;
+    width: 20%;
+    position: absolute;
+    top: 630px;
+    left: 900px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.kprac:hover{
+    width: 21%;
+    transition: ease all .67s;
+}
+.iano{
+    height: 33%;
+    width: auto;
+    position: absolute;
+    top: 630px;
+    left: 1300px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.iano:hover{
+    height: 34%;
+    transition: ease all .67s;
+}
+.senshi{
+    height: auto;
+    width: 20%;
+    position: absolute;
+    top: 930px;
+    left: 100px;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+
+.kalyeko3{
+    height: auto;
+    width: 10%;
+    position: absolute;
+    top: 1350px;
+    left: 300px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.ktbigpen{
+    height: 15%;
+    width: auto;
+    position: absolute;
+    top: 1350px;
+    left: 500px;
+    border-radius: 10px;
+    z-index: 21;
+}
+.jjk{
+    height: 15%;
+    width: auto;
+    position: absolute;
+    top: 1350px;
+    left: 620px;
+    border-radius: 10px;
+    z-index: 21;
+}
+.esclate{
+    height: 15%;
+    width: auto;
+    position: absolute;
+    top: 1350px;
+    left: 740px;
+    border-radius: 10px;
+    z-index: 21;
+}
+.mnn{
+    height: auto;
+    width: 15%;
+    position: absolute;
+    top: 1350px;
+    left: 860px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.mpreg{
+    height: 15%;
+    width: auto;
+    position: absolute;
+    top: 1350px;
+    left: 1160px;
+    border-radius: 10px;
+    z-index: 21;
+}
+.markpolo{
+    height: auto;
+    width: 10%;
+    position: absolute;
+    top: 1350px;
+    left: 1280px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.markanaya{
+    height: auto;
+    width: 13%;
+    position: absolute;
+    top: 1350px;
+    left: 1490px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.markagain{
+    height: 15%;
+    width: auto;
+    position: absolute;
+    top: 1500px;
+    left: 100px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.getaload{
+    height: 15%;
+    width: auto;
+    position: absolute;
+    top: 1500px;
+    left: 220px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.yeka{
+    height: 15%;
+    width: auto;
+    position: absolute;
+    top: 1500px;
+    left: 340px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.balls{
+    height: 15%;
+    width: auto;
+    position: absolute;
+    top: 1500px;
+    left: 460px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.belasun{
+    height: 15%;
+    width: auto;
+    position: absolute;
+    top: 1500px;
+    left: 580px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.beldrink{
+    height: auto;
+    width: 13.5%;
+    position: absolute;
+    top: 1500px;
+    left: 700px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.blurr{
+    height: 15%;
+    width: auto;
+    position: absolute;
+    top: 1500px;
+    left: 970px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.bny{
+    height: 15%;
+    width: auto;
+    position: absolute;
+    top: 1500px;
+    left: 1090px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.bridge{
+    height: auto;
+    width: 10%;
+    position: absolute;
+    top: 1500px;
+    left: 1210px;
+    border-radius: 10px;
+    z-index: 10;    
+}
+.cheers{
+    height: 45%;
+    width: auto;
+    position: absolute;
+    top: 1500px;
+    left: 1415px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.birds{
+    height: auto%;
+    width: 20%;
+    position: absolute;
+    top: 1650px;
+    left: 100px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.buwan{
+    height: auto;
+    width: 25%;
+    position: absolute;
+    top: 1650px;
+    left: 500px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.fam{
+    height: auto;
+    width: 25%;
+    position: absolute;
+    top: 2200px;
+    left: 300px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.mebutbaby{
+    height: auto;
+    width: 25%;
+    position: absolute;
+    top: 2200px;
+    left: 800px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.popsicle{
+    height: 27.5%;
+    width: auto;
+    position: absolute;
+    top: 1650px;
+    left: 990px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.yaoms{
+    height: 27.5%;
+    width: auto;
+    position: absolute;
+    top: 1650px;
+    left: 1150px;
+    border-radius: 10px;
+    z-index: 10;
+}

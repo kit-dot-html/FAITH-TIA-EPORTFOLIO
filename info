@@ -1,0 +1,69 @@
+PURPLE
+ hover: #2c1d58
+ background: rgba(6, 1, 48, 1)
+
+ BLUE 
+  hover: #1d2358 
+  background: rgb(1, 4, 48)
+
+GREEN
+ hover: #1d582f
+ background: rgb(1, 48, 28)
+
+RED:
+ hover: #581d1dff
+ background: rgba(48, 1, 1, 1)
+
+ rgba(255, 255, 255, 0.67)
+
+
+------- ME -------
+Before the pandemic, My parents wanted to buy me a phone for myself,
+preferably something small, like a Cherry phone. Our budget was only 5k,
+and we couldn't find a good phone, so my dad asked if I wanted a piano 
+instead. The pandemic came and bored I was, I decided to watch a few
+Youtube tutorials and taught myself how to play a few easy songs. It 
+came handy for VPOP and BOTB during grade 7.
+
+While grade 7 BOTB, messing around during practice, everyone trying out
+everyone's instruments, our bassist, Rolenson, taught me the bassline for
+our first song, and I kind of fell in love with it. Maybe it was because
+I always wanted to learn the guitar, but found it hard, but bass was easy
+to pick up and it looked cool. I played bass in last year's BOTB, and I'm 
+playing again this year in Asterismo's comeback (shh,secret lang naten to).
+I've always liked music!
+
+------- ICT -------
+I.
+CSS
+- Cacading Style Sheets, describes how HTML elements are to be displayed.
+- separates content design from content, making a website easier to maintain, more attractive and it saves a lot of work and time.
+
+Layers of a Webpage:
+: like how the elements of human body were layered and placed on top of each other– bones, muscles, veins, etc., to become a whole, the web page, is also composed of layers to make it whole.
+
+>  Content layer
+- HTML, the bones.
+- defines and layouts the text, images, animation, sound, video and everything you want to put in a web page with the use of tags.
+- should have:
+-- easy to understand text that makes sense without visual representation, with necessary information for the environment, like having explaination for abbreviations and acronyms.
+-- unambiguous for the colorblind and text in images needs to have a sufficient size and contrast.
+
+> Presentation layer:
+- CSS, the skin.
+-  defines how people see your web page in a browser.
+- should:
+-- ensure that text can be zoomed without making the site unusable, interactive elements of the site are easy to find, and that images and foreground and background have enough contrast and are unambiguous to the colorblind.
+-- give the site a consistent navigation, aid the user through business processes, and separate content into easily understandable units.
+
+> Behavior layer:
+- JavaScript, the nerves and the brain.
+- real-time user interaction with the web page.
+- should:
+--  ensure that all the functionality is available to the user regardless of input device, and make the user experience as easy as possible by cutting down on options until they are necessary.
+
+
+
+
+
+------- AP -------
